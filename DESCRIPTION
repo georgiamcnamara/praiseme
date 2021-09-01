@@ -1,0 +1,19 @@
+Package: praiseme
+Title: Deliver Praise to Someone
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Georgia",
+           family = "McNamara",
+           role = c("aut", "cre"),
+           email = "georgia.mcnamara@students.mq.edu.au")
+Description: This package aims to deliver a little praise whenever you need it.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    glue
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
